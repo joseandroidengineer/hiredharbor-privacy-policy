@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.https://joseandroidengineer.github.io/hiredharbor-privacy-policy/hiredharbor_privacy_policy.html }}
+      url: ${{ steps.deployment.outputs.https://joseandroidengineer.github.io/hiredharbor-privacy-policy/hired_harbor_privacy_policy.html }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
